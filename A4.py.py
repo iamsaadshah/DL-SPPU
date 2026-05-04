@@ -1,3 +1,6 @@
+#  Recurrent neural network (RNN) Use the Google stock prices dataset and design a time series 
+# analysis and prediction system using RNN.
+
 # =========================
 # 1. Import Libraries
 # =========================
