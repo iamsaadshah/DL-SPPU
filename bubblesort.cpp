@@ -104,3 +104,17 @@ int main() {
 
     return 0;
 }
+
+// 1. Using GCC / g++ (Linux, WSL, MinGW, etc.)
+// ✅ Compile
+// g++ -fopenmp your_file.cpp -o bubble
+// ▶️ Run
+// ./bubble
+
+
+// 🪟 2. On Windows (MinGW / MSYS2)
+// Make sure your g++ supports OpenMP.
+// Compile:
+// g++ -fopenmp your_file.cpp -o bubble.exe
+// Run:
+// bubble.exe
