@@ -1,6 +1,8 @@
 #  Recurrent neural network (RNN) Use the Google stock prices dataset and design a time series 
 # analysis and prediction system using RNN.
 
+# A Recurrent Neural Network (RNN) is a type of artificial neural network designed to process sequential data by maintaining a memory of previous inputs using a hidden state.
+
 # =========================
 # 1. Import Libraries
 # =========================
