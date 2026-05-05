@@ -53,7 +53,7 @@ int main(){
     start = omp_get_wtime();
     
     // most imp line 
-    #pragma opm parallel for reduction(min: min_par) reduction(max: max_par) reduction(+: sum_par)
+    #pragma omp parallel for reduction(min: min_par) reduction(max: max_par) reduction(+: sum_par)    
     
     for(int i =0;i<n; i++){
         if(nums[i] < min_par) min_par = nums[i];
@@ -89,3 +89,18 @@ int main(){
     
     return 0;
 }
+
+
+// 1. Using GCC / g++ (Linux, WSL, MinGW, etc.)
+// ✅ Compile
+// g++ -fopenmp your_file.cpp -o bubble
+// ▶️ Run
+// ./bubble
+
+
+// 🪟 2. On Windows (MinGW / MSYS2)
+// Make sure your g++ supports OpenMP.
+// Compile:
+// g++ -fopenmp your_file.cpp -o bubble.exe
+// Run:
+// bubble.exe
