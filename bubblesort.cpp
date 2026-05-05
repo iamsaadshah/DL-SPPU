@@ -9,8 +9,9 @@ using namespace std;
 // Utility: Print Array (for debugging)
 // --------------------------------------------------
 void printArray(const vector<int>& arr) {
-    for (int num : arr)
-        cout << num << " ";
+    for (int i = 0; i < arr.size(); i++) {
+        cout << arr[i] << " ";
+    }
     cout << endl;
 }
 
